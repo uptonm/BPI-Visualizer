@@ -11,10 +11,15 @@
     "react-scripts": "1.1.4",
     "victory": "^0.27.2"
   },
+  "homepage": "https://uptonm.github.io/BPI-Visualizer/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
